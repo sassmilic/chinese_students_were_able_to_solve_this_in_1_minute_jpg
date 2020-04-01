@@ -2,7 +2,7 @@
 
 My friend sent me this and I proceeded to waste an hour of my time :) This script solves for all variables.
 
-![Problem statement](https://i0.wp.com/mindyourdecisions.com/blog/wp-content/uploads/2018/01/5th-grade-gifted-chinese-math-problem-wp.png?resize=600%2C338&ssl=1)
+<img src="https://i0.wp.com/mindyourdecisions.com/blog/wp-content/uploads/2018/01/5th-grade-gifted-chinese-math-problem-wp.png" alt="drawing" width="400"/>
 
 ### Solution
 
