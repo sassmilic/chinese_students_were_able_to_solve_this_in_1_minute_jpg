@@ -1,0 +1,1 @@
+# chinese_students_were_able_to_solve_this_in_1_minute_jpg
