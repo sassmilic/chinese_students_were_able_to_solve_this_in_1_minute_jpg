@@ -1,6 +1,6 @@
 # chinese_students_were_able_to_solve_this_in_1_minute_jpg
 
-My friend sent me this and I proceeded to waste an hour of my time :) This script solves for all variables.
+My friend sent me this and I proceeded to waste an hour of my time :) This script solves for all variables (all areas on internal shapes, as well as parallelogram dimensions).
 
 <img src="https://i0.wp.com/mindyourdecisions.com/blog/wp-content/uploads/2018/01/5th-grade-gifted-chinese-math-problem-wp.png" alt="drawing" width="400"/>
 
