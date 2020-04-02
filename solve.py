@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import numpy as np
-from scipy.optimize import fsolve, minimize
+from scipy.optimize import minimize
 import scipy.optimize as opt
 
 VARS = ['a1', 'a2', 'b1', 'b2', 'h', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'h1', 'h2']
@@ -14,7 +14,7 @@ def main():
     cons = {'type' : 'ineq', 'fun': constraints}
     res = minimize(f, zGuess, method='SLSQP', constraints=cons, options={'ftol': 1e-10})
     
-    for v,x in list(zip(VARS, res.x)):
+    for v,x in zip(VARS, res.x):
         print(v, round(x, 2))
    
 def f(Z):
