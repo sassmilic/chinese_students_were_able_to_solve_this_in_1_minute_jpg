@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import numpy as np
 from scipy.optimize import minimize
-import scipy.optimize as opt
 
 VARS = ['a1', 'a2', 'b1', 'b2', 'h', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'h1', 'h2']
 V = {v:i for i,v in enumerate(VARS)}
