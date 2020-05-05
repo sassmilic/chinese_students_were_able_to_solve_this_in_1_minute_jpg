@@ -15,7 +15,7 @@ def main():
     res = minimize(f, zGuess, method='SLSQP', constraints=cons, options={'ftol': 1e-10})
     
     for v,x in list(zip(VARS, res.x)):
-        print(v, round(x, 2))
+        print(v, round(x, 3))
    
 def f(Z):
     a1 = Z[V['a1']]
