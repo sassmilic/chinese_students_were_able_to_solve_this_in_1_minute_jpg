@@ -4,6 +4,10 @@ My friend sent me this and I proceeded to waste an hour of my time :) This scrip
 
 <img src="https://i0.wp.com/mindyourdecisions.com/blog/wp-content/uploads/2018/01/5th-grade-gifted-chinese-math-problem-wp.png" alt="drawing" width="400"/>
 
+Variables correspond to:
+
+<img src="./IMG_5055.jpg" alt="drawing" width="300"/>
+
 ### Solution
 
 The parallelogram contains a bunch of triangles and trapezoids within it, as well as a bunch of unknowns. We solve by creating a system of nonlinear equations (where the equations are the area formulas for triangles, trapezoids, and parallelograms) and using an appropriate solver to solve for the unknowns. Interesting: it's not immediately obvious that we have enough information to solve for all unknowns; it turns out, we have exactly enough and no more! That is, the number of unknowns is exactly equal to the number of equations that can be extracted from the shape. This is unintuitive because a lot of shapes overlap and it takes some visual reasoning and subtlety to find them.
